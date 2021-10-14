@@ -455,6 +455,9 @@ Recipes
 
 .tags-container {
   order: 1;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3em;
 }
 
 .tags-container h4 {
@@ -464,7 +467,8 @@ Recipes
 
 .tags-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+
 }
 
 .tags-list a {
@@ -514,7 +518,7 @@ Recipes
 }
 @media screen and (min-width: 900px) {
   .recipes-container {
-    grid-template-columns: 12.5rem 1fr;
+    grid-template-columns: 15rem 1fr;
   }
   .recipe p {
     font-size: 0.85rem;
