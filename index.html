@@ -58,35 +58,49 @@
             <!-- tags container -->
             <div class="tags-container">
                 <h4>recipes</h4>
-                <div class="tags-list">
-                    <a href="tag-template.html">Pelau</a>
-                    <a href="tag-template.html">Grenadian Chicken Stew</a>
-                    <a href="tag-template.html">Oil Down</a>
-                    <a href="tag-template.html">Grenadian Spice Cake</a>
-                    <a href="tag-template.html">Rum Punch</a>
-                    <a href="tag-template.html">Caribbean beef patties</a>
-                    <a href="tag-template.html">Jerk chicken with rice & peas</a>
-                    <a href="tag-template.html">Nutmeg Chicken</a>
-                    <a href="tag-template.html">Grenadian Coconut Lamb Curry</a>
-                    <a href="tag-template.html">Grenadian bake & fishcake</a>
-                </div>
+                <form name="my-form" action="#">
+                    <!-- <label for="recipe" title="recipe or ingredients"></label> -->
+                    <select id="recipe" name="recipe">
+                        <div class="tags-list">
+                           <optgroup label="Grenada">
+                               <option value="select recipe"> Select Recipe</option>
+                               <option value="Grenada coconut lamb curry">Grenadian Curry Goat</option>
+                               <option value="grenada spice cake">Spice Cake</option>
+                               <option value="grenadian chicken stew">Chicken Stew</optgroup>
+                                <option value="bake & fishcake">Bake & fishcake</option>
+                                <option value="oil down">Oil Down</option>
+                                <option value="nutmeg chicken">Nutmeg Chicken</option>
+                           </optgroup>
+
+                            <optgroup label="Other">
+                                <option value="pelau">Pelau</option>
+                                <option value="rum Punch">Rum Punch</option>
+                                <option value="beef patties">Caribbean beef patties</option>
+                                <option value="jerk chicken with rice & peas">Jerk chicken with rice & peas</option>
+                            </optgroup>
+                        </div>
+                    </select>
+                    <div class="btn-block ">
+                        <a href="tag-template.html" class="btn">Recipe</a>
+                    </div>
+                </form>
             </div>
             <!-- end of tags container -->
 
             <!-- recipe list -->
             <div class="recipe-list">
                 <!-- Single recipe -->
-                <a href="single-recipe.html" class="recipe">
-                    <img src="./assets/recipe/recipe_4.jpg" alt="spoons"
+                <a href="coconutLamb-recipe.html" class="recipe">
+                    <img src="https://gracefoods.com/images/Recipes2017/cropped-Curried--oat.jpg" alt="curry goat"
                     class="img recipe-img"/>
                     <div class="card-body">
-                        <h5>Carne Asada</h5>
-                        <div class="rating">
+                        <h5> Grenadian Curry Goat</h5>
+                        <!-- <div class="rating">
                             <span>
                                 <i class="fa fa-star"></i>
                             </span>
-                        </div>
-                        <p>Prep: 1hr 20min</p>
+                        </div> -->
+                        <p>Prep: 20min</p>
                     </div>
                 </a>
                     
@@ -94,15 +108,15 @@
 
                 <!-- Single recipe -->
                 <a href="single-recipe.html" class="recipe">
-                    <img src="./assets/recipe/recipe_2.jpg" alt="spoons"
+                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F50871.jpg&w=596&h=399&c=sc&poi=face&q=85" alt="spice cake"
                     class="img recipe-img"/>
                     <div class="card-body">
-                        <h5>Pelau</h5>
-                        <div class="rating">
+                        <h5>Spice Cake</h5>
+                        <!-- <div class="rating">
                             <span>
                                 <i class="fa fa-star"></i>
                             </span>
-                        </div>
+                        </div> -->
                         <p>Prep : 15mins</p>
                     </div>
                 </a>
@@ -110,15 +124,122 @@
 
                 <!-- Single recipe -->
                 <a href="single-recipe.html" class="recipe">
-                    <img src="./assets/recipe/recipe_3.jpg" alt="spoons"
+                    <img src="https://www.nutmegnanny.com/wp-content/uploads/2015/01/Grenadian-chicken-stew-20.jpg.webp" alt="stew chicken"
                     class="img recipe-img"/>
                     <div class="card-body">
-                        <h5>Oil-down</h5>
-                        <div class="rating">
+                        <h5>Chicken Stew</h5>
+                        <!-- <div class="rating">
                             <span>
                                 <i class="fa fa-star"></i>
                             </span>
-                        </div>
+                        </div> -->
+                        <p>Prep : 15mins</p>
+                    </div>
+                </a>
+                <!-- end of single recipe -->
+                <!-- Single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="https://i0.wp.com/www.spoonsandstilettos.com/wp-content/uploads/2019/02/fullsizeoutput_3ccc-2.jpeg?resize=1100%2C875" alt="bake & fish cake"
+                    class="img recipe-img"/>
+                    <div class="card-body">
+                        <h5>Bake & fish cake</h5>
+                        <!-- <div class="rating">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
+                        <p>Prep : 15mins</p>
+                    </div>
+                </a>
+                <!-- end of single recipe -->
+                <!-- Single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="https://www.196flavors.com/wp-content/uploads/2014/03/Grenade-Oil-Down-4.jpg" alt="oil down"
+                    class="img recipe-img"/>
+                    <div class="card-body">
+                        <h5>Oil Down</h5>
+                        <!-- <div class="rating">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
+                        <p>Prep : 15mins</p>
+                    </div>
+                </a>
+                <!-- end of single recipe -->
+                <!-- Single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1084/https://thatgirlcookshealthy.com/wp-content/uploads/2020/09/nutmeg-chicken-1084x1536.jpg" alt="nutmeg chicken"
+                    class="img recipe-img"/>
+                    <div class="card-body">
+                        <h5>Nutmeg Chicken</h5>
+                        <!-- <div class="rating">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
+                        <p>Prep : 15mins</p>
+                    </div>
+                </a>
+                <!-- end of single recipe -->
+                <!-- Single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1084/https://thatgirlcookshealthy.com/wp-content/uploads/2020/09/nutmeg-chicken-1084x1536.jpg" alt="pelau"
+                    class="img recipe-img"/>
+                    <div class="card-body">
+                        <h5>Pelau</h5>
+                        <!-- <div class="rating">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
+                        <p>Prep : 15mins</p>
+                    </div>
+                </a>
+                <!-- end of single recipe -->
+
+                <!-- Single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="https://spicetrekkers.com//upload/recettes/rhum-punch-site.jpg" alt="rum punch"
+                    class="img recipe-img"/>
+                    <div class="card-body">
+                        <h5>Rum Punch</h5>
+                        <!-- <div class="rating">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
+                        <p>Prep : 15mins</p>
+                    </div>
+                </a>
+                <!-- end of single recipe -->
+                <!-- Single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="https://flawlessfood.co.uk/wp-content/uploads/2020/05/blog-200503-Jamaican-Beef-Patties-20208.jpg" alt="jamaican beef patties"
+                    class="img recipe-img"/>
+                    <div class="card-body">
+                        <h5>Jamaican beef patties</h5>
+                        <!-- <div class="rating">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
+                        <p>Prep : 15mins</p>
+                    </div>
+                </a>
+                <!-- end of single recipe -->
+
+                <!-- Single recipe -->
+                <a href="single-recipe.html" class="recipe">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1047528_11-62a849b.jpg?quality=90&webp=true&resize=440,400" alt="jerk chicken"
+                    class="img recipe-img"/>
+                    <div class="card-body">
+                        <h5>Jerk chicken</h5>
+                        <!-- <div class="rating">
+                            <span>
+                                <i class="fa fa-star"></i>
+                            </span>
+                        </div> -->
                         <p>Prep : 15mins</p>
                     </div>
                 </a>

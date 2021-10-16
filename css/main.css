@@ -489,6 +489,7 @@ Recipes
 
 .recipe-img {
   height: auto;
+  width: 100%;
   border-radius: var(--borderRadius);
   margin-bottom: 1em;
 }
@@ -518,7 +519,7 @@ Recipes
 }
 @media screen and (min-width: 900px) {
   .recipes-container {
-    grid-template-columns: 15rem 1fr;
+    grid-template-columns: 18rem 1fr;
   }
   .recipe p {
     font-size: 0.85rem;
@@ -532,7 +533,7 @@ Recipes
 }
 @media screen and (min-width: 1200px) {
   .recipe-list {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .recipe h5 {
     font-size: 1.15rem;
