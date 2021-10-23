@@ -566,7 +566,6 @@ About
   .about-page h2 {
     text-transform: none;
     font-weight: bold;
-    /* padding-bottom: 3em; */
   }
 
   .about-page {
@@ -582,7 +581,7 @@ About
   @media screen and (min-width: 900px) {
     .about-page {
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 400px;
+      /* grid-template-rows: 200px; */
       align-items: center;
     }
     .about-vid {
@@ -595,7 +594,7 @@ About
 
   .featured-title {
     padding-top: 3em;
-    text-align: center;
+    /* text-align: center; */
   }
 
   /*
