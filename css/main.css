@@ -443,7 +443,7 @@ Recipes
 ===============
 */
 .recipes-container {
-  display: grid;
+  /* display: grid; */
   gap: 2em 1em;
 }
 
@@ -519,7 +519,7 @@ Recipes
 
   @media screen and (min-width: 900px) {
     .recipes-container {
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
   .recipe-list {
